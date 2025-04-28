@@ -5,11 +5,9 @@ Created on Thu Mar 20 10:25:28 2025
 @author: z048540
 """
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PDFPlumberLoader
 import pickle
 import pdfplumber
 from langchain.schema import Document
-from tqdm.auto import tqdm
 from langchain.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
