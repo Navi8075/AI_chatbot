@@ -1,0 +1,13 @@
+langchain
+pdfplumber
+langchain_community
+tf-keras
+sentence-transformers
+langchain-google-genai
+python-dotenv
+langchainhub
+langchain_huggingface
+faiss-cpu
+faster_whisper
+gunicorn
+pickle
