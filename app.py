@@ -50,4 +50,4 @@ def chat():
     return send_file(mp3_io, mimetype='audio/mpeg', as_attachment=False, download_name="speech.mp3")
 
 if __name__ == '__main__':
-    app.run()  
+    app.run(host="0.0.0.0", port=10000)  
