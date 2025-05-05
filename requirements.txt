@@ -11,3 +11,4 @@ faiss-cpu
 faster_whisper
 gunicorn
 pickle
+gTTS
