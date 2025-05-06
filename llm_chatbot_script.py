@@ -18,7 +18,7 @@ def chatbot_response(audio):
     load_dotenv()
     
     query =''
-    model_size = 'base'
+    model_size = 'tiny'
     model = WhisperModel(model_size,device='cpu',compute_type='float32')
     segments, info = model.transcribe(audio)
     
